@@ -1,4 +1,4 @@
-package guis;
+package com.bankapp.guis;
 
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -11,7 +11,7 @@ import javax.swing.JLabel;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
-import db_objs.User;
+import com.bankapp.db_objs.User;
 
 public class BankigAppGui extends BaseFrame implements ActionListener {
 

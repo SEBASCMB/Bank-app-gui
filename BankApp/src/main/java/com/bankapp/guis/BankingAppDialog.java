@@ -1,11 +1,10 @@
-package guis;
+package com.bankapp.guis;
 
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.math.BigDecimal;
 import java.text.NumberFormat;
-import java.text.ParseException;
 import java.util.Locale;
 
 import javax.swing.JButton;
@@ -15,9 +14,9 @@ import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
-import db_objs.MyJDBC;
-import db_objs.Transaction;
-import db_objs.User;
+import com.bankapp.db_objs.MyJDBC;
+import com.bankapp.db_objs.Transaction;
+import com.bankapp.db_objs.User;
 
 public class BankingAppDialog extends JDialog implements ActionListener {
 
