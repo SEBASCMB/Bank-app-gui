@@ -1,0 +1,31 @@
+# Archivos y carpetas de compilación
+/bin/
+/build/
+/out/
+
+# Dependencias externas
+/lib/*.jar
+!lib/mysql-connector-j-9.2.0.jar
+
+# Archivos de configuración de IDE
+/.classpath
+/.project
+/.settings/
+/.vscode/
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+
+# Archivos personales
+*.iml
+
+# Archivos de base de datos locales
+*.db
+
+# Otros
+*.swp
